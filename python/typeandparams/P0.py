@@ -247,6 +247,7 @@ def main():
                 body = {
                     "query": query, "timeSupSize": 3, "decomposedFlag": True,
                     "decomposedSize": 3, "size": 12, "useNewsSearch": True,
+                    "quesDecomposeV2Flag": True,
                     "searchStrategyType": "mergeAllQueryRank"
                 }
 
